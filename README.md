@@ -1,6 +1,7 @@
 # utils
 To pre-process conic dataset, yolo-format and custom anchors
 
+[Default](https://github.com/artynet/darknet-alexeyAB/blob/8c80ba6b53429347bd6249a16cd576c971a0776b/cfg/yolov3.cfg) yolov3 configs and training code taken from [here](https://github.com/artynet/darknet-alexeyAB)
 
 ## Configuration changes for small objects:
 * set custom  anchor box using [kmeans](https://github.com/nferencesinghv04/utils/blob/d059094cab664466bcd5b6e883d89c6db3bfb4b7/gen_anchors.py)
