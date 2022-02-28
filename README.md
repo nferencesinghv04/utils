@@ -4,7 +4,8 @@ To pre-process conic dataset, yolo-format and custom anchors
 
 ## Configuration changes for small objects:
 * set custom  anchor box using [kmeans](https://github.com/nferencesinghv04/utils/blob/d059094cab664466bcd5b6e883d89c6db3bfb4b7/gen_anchors.py)
-
+  * Custom anchors : 5,6,  8,7,  9,9,  11,11,  13,11,  17,15,  17,16,  18,17,  27,25 
+  * Default anchors :10,13,  16,30,  33,23,  30,61,  62,45,  59,119,  116,90,  156,198,  373,326
   * ![alt text](https://github.com/nferencesinghv04/utils/blob/d059094cab664466bcd5b6e883d89c6db3bfb4b7/kmeans.png)
   * ![alt text](https://github.com/nferencesinghv04/utils/blob/d059094cab664466bcd5b6e883d89c6db3bfb4b7/anchors.png)
 * set layers and stride for initial layers as feature maps for small objects will be better in initial layers
