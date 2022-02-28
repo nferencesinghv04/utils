@@ -14,10 +14,3 @@ steps: 80% of max_batches, 90%of max batches
 scale = 0.1, 0.1 : the learning rate will be reduced ten times on the basis of the previous learning rate each time it reaches the steps
 
 ignore_thresh = .7 The parameter that decides whether to calculate the IOU error. If it is greater than thresh, the IOU error will not be caught in the cost function 
-
-
-pad = 1
-angle=0
-saturation = 1.5
-exposure = 1.5
-hue=.1
